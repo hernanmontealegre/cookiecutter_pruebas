@@ -1,0 +1,10 @@
+#configuración de entorno
+# conda env create --file environment.yml
+name: cookiecutter-personal-platzi
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - cookiecutter
+#Para modificar el Json, se hace desde el archivo de  afuera
